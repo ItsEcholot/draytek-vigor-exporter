@@ -1,0 +1,29 @@
+{
+  "name": "draytek-vigor-exporter",
+  "version": "1.0.0",
+  "description": "Prometheus exporter for DrayTek Vigor modems",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsEcholot/draytek-vigor-exporter.git"
+  },
+  "keywords": [
+    "prometheus",
+    "draytek"
+  ],
+  "author": "Marc Berchtold",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ItsEcholot/draytek-vigor-exporter/issues"
+  },
+  "homepage": "https://github.com/ItsEcholot/draytek-vigor-exporter#readme",
+  "devDependencies": {
+    "@types/node": "^22.8.1",
+    "typescript": "^5.6.3"
+  }
+}
